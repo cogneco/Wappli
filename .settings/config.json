@@ -1,0 +1,49 @@
+{
+    "src": "*.ts",
+    "main": "index.html",
+    "buildOnSave": true,
+    "projectType": "standard",
+    "compiler": {
+        "noLib": false,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "declaration": true,
+        "sourceMap": true,
+        "propagateEnumConstants": false,
+        "allowAutomaticSemicolonInsertion": false,
+        "target": 1,
+        "module": 0,
+        "outDir": "",
+        "out": "bin/wappli.js"
+    },
+    "codeFormat": {
+        "NewLineCharacter": "\n",
+        "ConvertTabsToSpaces": false,
+        "IndentSize": 2,
+        "TabSize": 2
+    },
+    "customBuild": {
+        "name": null,
+        "command": null,
+        "directory": null,
+        "environment": null,
+        "ownConsole": false
+    },
+    "customRun": {
+        "name": null,
+        "command": null,
+        "directory": null,
+        "environment": null,
+        "ownConsole": false
+    },
+    "documentation": {
+        "includeDeclarations": false,
+        "outputDirectory": null,
+        "readme": null,
+        "theme": "default"
+    },
+    "tslint": {
+        "useLint": false,
+        "lintFile": null
+    }
+}
